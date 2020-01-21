@@ -14,9 +14,13 @@ function createWindow () {
     // fullscreen: true,
     // https://electronjs.org/docs/api/browser-window#browserwindow-maximize
     webPreferences: {
+      // !!!!!!https://stackoverflow.com/questions/45554249/playing-local-mp4-file-in-electron
       preload: path.join(__dirname, 'preload.js') // load sub program
     }
   })
+
+  // security
+  // note: https://electronjs.org/docs/tutorial/security
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
