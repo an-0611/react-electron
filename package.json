@@ -8,7 +8,7 @@
     "pack": "electron-builder --dir",
     "dist": "electron-builder"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
+  "repository": "https://github.com/an-0611/react-electron.git",
   "keywords": [
     "Electron",
     "quick",
@@ -16,7 +16,7 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "an",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^7.1.9",
