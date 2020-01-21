@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -17,6 +19,18 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.9"
-  }
+    "electron": "^7.1.9",
+    "electron-builder": "^22.2.0"
+  },
+  "build": {
+    "appId": "react-electron",
+    "productName": "ExchangeRate",
+    "directories": {
+      "output": "build"
+    },
+    "mac": {
+      "category": "application"
+    }
+  },
+  "dependencies": {}
 }

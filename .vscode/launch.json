@@ -1,0 +1,39 @@
+{
+  // 使用 IntelliSense 以得知可用的屬性。
+  // 暫留以檢視現有屬性的描述。
+  // 如需詳細資訊，請瀏覽: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "啟動程式",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/main.js"
+      // "name": "啟動",
+      // "type": "node",
+      // "request": "launch",
+      // "program": "${workspaceRoot}\\main.js",
+      // "stopOnEntry": false,
+      // "args": [],
+      // "cwd": "${workspaceRoot}",
+      // "preLaunchTask": null,
+      // "runtimeExecutable": "${workspaceRoot}\\node_modules\\.bin\\electron.cmd",
+      // "runtimeArgs": [
+      //     "--enable-logging"
+      // ],
+      // "env": {},
+      // "console": "internalConsole",
+      // "sourceMaps": false,
+      // "outFiles": []
+    },
+    // {
+    //   "type": "node",
+    //   "request": "attach",
+    //   "name": "附加至處理序",
+    //   "port": 5858
+    // }
+  ]
+}
